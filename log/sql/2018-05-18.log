@@ -1,0 +1,12 @@
+
+127.0.0.1 | 2018-05-18 11:49:39
+SQL: SELECT * FROM `aac_global` LIMIT 1
+Error: Table 'redis.aac_global' doesn't exist
+LINE__________FUNCTION__________FILE______________________________________
+764________checkResult__________F:\phpstudy\www\phpredis\application\library\core\Model.php
+345________Execute______________F:\phpstudy\www\phpredis\application\library\core\Model.php
+366________Select_______________F:\phpstudy\www\phpredis\application\library\core\Model.php
+20_________SelectOne____________F:\phpstudy\www\phpredis\application\model\M_Global.php
+56_________getGlobal____________F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Login.php
+___________checkLoginAction_____
+19_________run__________________F:\phpstudy\www\phpredis\public\index.php

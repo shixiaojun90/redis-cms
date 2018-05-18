@@ -1,0 +1,36 @@
+
+10.3.128.173 | 2018-05-17 10:41:36
+SQL: SELECT * FROM `aac_global` LIMIT 1
+Error: Table 'wallet.aac_global' doesn't exist
+LINE__________FUNCTION__________FILE______________________________________
+764________checkResult__________F:\phpstudy\www\wallet\application\library\core\Model.php
+345________Execute______________F:\phpstudy\www\wallet\application\library\core\Model.php
+366________Select_______________F:\phpstudy\www\wallet\application\library\core\Model.php
+20_________SelectOne____________F:\phpstudy\www\wallet\application\model\M_Global.php
+56_________getGlobal____________F:\phpstudy\www\wallet\application\modules\Admin\controllers\Login.php
+___________checkLoginAction_____
+19_________run__________________F:\phpstudy\www\wallet\public\index.php
+
+127.0.0.1 | 2018-05-17 14:17:38
+SQL: SELECT * FROM `aac_global` LIMIT 1
+Error: Table 'redis.aac_global' doesn't exist
+LINE__________FUNCTION__________FILE______________________________________
+764________checkResult__________F:\phpstudy\www\phpredis\application\library\core\Model.php
+345________Execute______________F:\phpstudy\www\phpredis\application\library\core\Model.php
+366________Select_______________F:\phpstudy\www\phpredis\application\library\core\Model.php
+20_________SelectOne____________F:\phpstudy\www\phpredis\application\model\M_Global.php
+56_________getGlobal____________F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Login.php
+___________checkLoginAction_____
+19_________run__________________F:\phpstudy\www\phpredis\public\index.php
+
+127.0.0.1 | 2018-05-17 14:40:21
+SQL: SELECT * FROM `aac_global` LIMIT 1
+Error: Table 'redis.aac_global' doesn't exist
+LINE__________FUNCTION__________FILE______________________________________
+764________checkResult__________F:\phpstudy\www\phpredis\application\library\core\Model.php
+345________Execute______________F:\phpstudy\www\phpredis\application\library\core\Model.php
+366________Select_______________F:\phpstudy\www\phpredis\application\library\core\Model.php
+20_________SelectOne____________F:\phpstudy\www\phpredis\application\model\M_Global.php
+56_________getGlobal____________F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Login.php
+___________checkLoginAction_____
+19_________run__________________F:\phpstudy\www\phpredis\public\index.php

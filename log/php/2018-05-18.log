@@ -1,0 +1,127 @@
+2018-05-18 12:01:22 4096
+2018-05-18 12:01:22 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 12:01:22 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 12:01:22 19
+2018-05-18 12:01:46 4096
+2018-05-18 12:01:46 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 12:01:46 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 12:01:46 19
+2018-05-18 12:09:58 4096
+2018-05-18 12:09:58 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 12:09:58 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 12:09:58 19
+2018-05-18 12:16:09 4096
+2018-05-18 12:16:09 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 12:16:09 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 12:16:09 19
+2018-05-18 12:18:09 4096
+2018-05-18 12:18:09 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 12:18:09 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 12:18:09 19
+[18-May-2018 13:33:21 Asia/Chongqing] PHP Fatal error:  Cannot override final method Yaf_Controller_Abstract::__construct() in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 187
+[18-May-2018 13:45:14 Asia/Chongqing] PHP Fatal error:  Access level to WalletmsgController::init() must be public (as in class BasicController) in F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php on line 153
+[18-May-2018 14:05:33 Asia/Chongqing] PHP Fatal error:  Access level to WalletmsgController::init() must be public (as in class BasicController) in F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php on line 153
+2018-05-18 15:08:17 4096
+2018-05-18 15:08:17 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 15:08:17 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 15:08:17 19
+2018-05-18 15:33:16 4096
+2018-05-18 15:33:16 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 15:33:16 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 15:33:16 19
+2018-05-18 16:09:31 4096
+2018-05-18 16:09:31 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:09:31 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:09:31 19
+2018-05-18 16:10:24 4096
+2018-05-18 16:10:24 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:10:24 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:10:24 19
+2018-05-18 16:24:28 4096
+2018-05-18 16:24:28 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:24:28 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:24:28 19
+[18-May-2018 16:25:36 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to a member function mset() on null in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php:190
+Stack trace:
+#0 F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php(67): BasicController->hmset_redis(Array)
+#1 [internal function]: WalletmsgController->addAction()
+#2 F:\phpstudy\www\phpredis\public\index.php(19): Yaf_Application->run()
+#3 {main}
+  thrown in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 190
+2018-05-18 16:30:58 4096
+2018-05-18 16:30:58 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:30:58 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:30:58 19
+[18-May-2018 16:31:31 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to a member function hmset() on null in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php:190
+Stack trace:
+#0 F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php(67): BasicController->hmset_redis('walletmsg', '{"language_id":...')
+#1 [internal function]: WalletmsgController->addAction()
+#2 F:\phpstudy\www\phpredis\public\index.php(19): Yaf_Application->run()
+#3 {main}
+  thrown in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 190
+2018-05-18 16:31:57 4096
+2018-05-18 16:31:57 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:31:57 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:31:57 19
+2018-05-18 16:32:03 4096
+2018-05-18 16:32:03 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:32:03 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:32:03 19
+[18-May-2018 16:32:34 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to a member function set() on null in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php:180
+Stack trace:
+#0 F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php(67): BasicController->strset_redis('walletmsg', '{"language_id":...')
+#1 [internal function]: WalletmsgController->addAction()
+#2 F:\phpstudy\www\phpredis\public\index.php(19): Yaf_Application->run()
+#3 {main}
+  thrown in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 180
+2018-05-18 16:33:45 4096
+2018-05-18 16:33:45 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:33:45 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:33:45 19
+2018-05-18 16:34:52 4096
+2018-05-18 16:34:52 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:34:52 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:34:52 19
+[18-May-2018 16:35:13 Asia/Chongqing] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Redis::hMset() must be of the type array, string given in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php:192
+Stack trace:
+#0 F:\phpstudy\www\phpredis\application\library\core\C_Basic.php(192): Redis->hMset('walletmsg', '{"language_id":...')
+#1 F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php(67): BasicController->hmset_redis('walletmsg', '{"language_id":...')
+#2 [internal function]: WalletmsgController->addAction()
+#3 F:\phpstudy\www\phpredis\public\index.php(19): Yaf_Application->run()
+#4 {main}
+  thrown in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 192
+2018-05-18 16:35:51 4096
+2018-05-18 16:35:51 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:35:51 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:35:51 19
+[18-May-2018 16:36:10 Asia/Chongqing] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to Redis::hMset() must be of the type array, string given in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php:192
+Stack trace:
+#0 F:\phpstudy\www\phpredis\application\library\core\C_Basic.php(192): Redis->hMset('walletmsg', '{"language_id":...')
+#1 F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php(67): BasicController->hmset_redis('walletmsg', '{"language_id":...')
+#2 [internal function]: WalletmsgController->addAction()
+#3 F:\phpstudy\www\phpredis\public\index.php(19): Yaf_Application->run()
+#4 {main}
+  thrown in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 192
+2018-05-18 16:42:31 4096
+2018-05-18 16:42:31 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:42:31 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:42:31 19
+[18-May-2018 16:43:09 Asia/Chongqing] PHP Fatal error:  Uncaught Error: Call to a member function sadd() on null in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php:197
+Stack trace:
+#0 F:\phpstudy\www\phpredis\application\modules\Admin\controllers\Walletmsg.php(67): BasicController->sadd_redis('walletmsg', '{"language_id":...')
+#1 [internal function]: WalletmsgController->addAction()
+#2 F:\phpstudy\www\phpredis\public\index.php(19): Yaf_Application->run()
+#3 {main}
+  thrown in F:\phpstudy\www\phpredis\application\library\core\C_Basic.php on line 197
+2018-05-18 16:43:44 4096
+2018-05-18 16:43:44 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:43:44 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:43:44 19
+2018-05-18 16:48:28 4096
+2018-05-18 16:48:28 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:48:28 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:48:28 19
+2018-05-18 16:50:41 4096
+2018-05-18 16:50:41 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-18 16:50:41 F:\phpstudy\www\phpredis\public\index.php
+2018-05-18 16:50:41 19

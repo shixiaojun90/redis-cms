@@ -1,0 +1,8 @@
+2018-05-17 18:54:13 4096
+2018-05-17 18:54:13 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-17 18:54:13 F:\phpstudy\www\phpredis\public\index.php
+2018-05-17 18:54:13 19
+2018-05-17 18:54:32 4096
+2018-05-17 18:54:32 Yaf_Application::run(): Failed opening controller script F:\phpstudy\www\phpredis/application/\controllers\Widget.php: No such file or directory
+2018-05-17 18:54:32 F:\phpstudy\www\phpredis\public\index.php
+2018-05-17 18:54:32 19
