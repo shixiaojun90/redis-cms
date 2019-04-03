@@ -1,0 +1,164 @@
+2019-04-03 17:38:49 4096
+2019-04-03 17:38:49 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/modules/Admin/controllers/Vote.php: No such file or directory
+2019-04-03 17:38:49 /home/kod/yafcms/public/index.php
+2019-04-03 17:38:49 19
+2019-04-03 17:38:56 4096
+2019-04-03 17:38:56 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/modules/Admin/controllers/Banner.php: No such file or directory
+2019-04-03 17:38:56 /home/kod/yafcms/public/index.php
+2019-04-03 17:38:56 19
+2019-04-03 17:44:07 4096
+2019-04-03 17:44:07 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 17:44:07 /home/kod/yafcms/public/index.php
+2019-04-03 17:44:07 19
+2019-04-03 17:44:24 4096
+2019-04-03 17:44:24 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 17:44:24 /home/kod/yafcms/public/index.php
+2019-04-03 17:44:24 19
+2019-04-03 17:46:45 4096
+2019-04-03 17:46:45 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 17:46:45 /home/kod/yafcms/public/index.php
+2019-04-03 17:46:45 19
+2019-04-03 17:47:10 4096
+2019-04-03 17:47:10 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 17:47:10 /home/kod/yafcms/public/index.php
+2019-04-03 17:47:10 19
+2019-04-03 17:48:25 4096
+2019-04-03 17:48:25 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 17:48:25 /home/kod/yafcms/public/index.php
+2019-04-03 17:48:25 19
+2019-04-03 18:03:03 4096
+2019-04-03 18:03:03 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:03:03 /home/kod/yafcms/public/index.php
+2019-04-03 18:03:03 19
+2019-04-03 18:03:32 4096
+2019-04-03 18:03:32 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:03:32 /home/kod/yafcms/public/index.php
+2019-04-03 18:03:32 19
+2019-04-03 18:05:40 4096
+2019-04-03 18:05:40 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:05:40 /home/kod/yafcms/public/index.php
+2019-04-03 18:05:40 19
+2019-04-03 18:07:05 4096
+2019-04-03 18:07:05 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:07:05 /home/kod/yafcms/public/index.php
+2019-04-03 18:07:05 19
+2019-04-03 18:09:05 4096
+2019-04-03 18:09:05 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:09:05 /home/kod/yafcms/public/index.php
+2019-04-03 18:09:05 19
+2019-04-03 18:14:16 4096
+2019-04-03 18:14:16 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:14:16 /home/kod/yafcms/public/index.php
+2019-04-03 18:14:16 19
+2019-04-03 18:19:31 4096
+2019-04-03 18:19:31 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:19:31 /home/kod/yafcms/public/index.php
+2019-04-03 18:19:31 19
+2019-04-03 18:21:20 4096
+2019-04-03 18:21:20 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:21:20 /home/kod/yafcms/public/index.php
+2019-04-03 18:21:20 19
+2019-04-03 18:23:52 4096
+2019-04-03 18:23:52 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:23:52 /home/kod/yafcms/public/index.php
+2019-04-03 18:23:52 19
+2019-04-03 18:24:40 4096
+2019-04-03 18:24:40 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:24:40 /home/kod/yafcms/public/index.php
+2019-04-03 18:24:40 19
+2019-04-03 18:26:02 4096
+2019-04-03 18:26:02 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:26:02 /home/kod/yafcms/public/index.php
+2019-04-03 18:26:02 19
+2019-04-03 18:26:58 4096
+2019-04-03 18:26:58 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:26:58 /home/kod/yafcms/public/index.php
+2019-04-03 18:26:58 19
+2019-04-03 18:27:07 4096
+2019-04-03 18:27:07 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:27:07 /home/kod/yafcms/public/index.php
+2019-04-03 18:27:07 19
+2019-04-03 18:27:44 4096
+2019-04-03 18:27:44 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:27:44 /home/kod/yafcms/public/index.php
+2019-04-03 18:27:44 19
+2019-04-03 18:27:56 4096
+2019-04-03 18:27:56 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:27:56 /home/kod/yafcms/public/index.php
+2019-04-03 18:27:56 19
+2019-04-03 18:29:42 4096
+2019-04-03 18:29:42 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:29:42 /home/kod/yafcms/public/index.php
+2019-04-03 18:29:42 19
+2019-04-03 18:37:22 4096
+2019-04-03 18:37:22 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:37:22 /home/kod/yafcms/public/index.php
+2019-04-03 18:37:22 19
+2019-04-03 18:37:28 4096
+2019-04-03 18:37:28 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:37:28 /home/kod/yafcms/public/index.php
+2019-04-03 18:37:28 19
+2019-04-03 18:37:47 4096
+2019-04-03 18:37:47 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:37:47 /home/kod/yafcms/public/index.php
+2019-04-03 18:37:47 19
+2019-04-03 18:38:10 4096
+2019-04-03 18:38:10 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:38:10 /home/kod/yafcms/public/index.php
+2019-04-03 18:38:10 19
+2019-04-03 18:38:50 4096
+2019-04-03 18:38:50 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:38:50 /home/kod/yafcms/public/index.php
+2019-04-03 18:38:50 19
+2019-04-03 18:39:35 4096
+2019-04-03 18:39:35 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:39:35 /home/kod/yafcms/public/index.php
+2019-04-03 18:39:35 19
+2019-04-03 18:39:46 4096
+2019-04-03 18:39:46 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:39:46 /home/kod/yafcms/public/index.php
+2019-04-03 18:39:46 19
+2019-04-03 18:40:36 4096
+2019-04-03 18:40:36 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:40:36 /home/kod/yafcms/public/index.php
+2019-04-03 18:40:36 19
+2019-04-03 18:41:00 4096
+2019-04-03 18:41:00 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:41:00 /home/kod/yafcms/public/index.php
+2019-04-03 18:41:00 19
+2019-04-03 18:41:14 4096
+2019-04-03 18:41:14 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:41:14 /home/kod/yafcms/public/index.php
+2019-04-03 18:41:14 19
+2019-04-03 18:41:53 4096
+2019-04-03 18:41:53 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:41:53 /home/kod/yafcms/public/index.php
+2019-04-03 18:41:53 19
+2019-04-03 18:41:57 4096
+2019-04-03 18:41:57 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:41:57 /home/kod/yafcms/public/index.php
+2019-04-03 18:41:57 19
+2019-04-03 18:43:13 4096
+2019-04-03 18:43:13 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:43:13 /home/kod/yafcms/public/index.php
+2019-04-03 18:43:13 19
+2019-04-03 18:47:16 4096
+2019-04-03 18:47:16 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:47:16 /home/kod/yafcms/public/index.php
+2019-04-03 18:47:16 19
+2019-04-03 18:47:49 4096
+2019-04-03 18:47:49 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:47:49 /home/kod/yafcms/public/index.php
+2019-04-03 18:47:49 19
+2019-04-03 18:51:46 4096
+2019-04-03 18:51:46 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:51:46 /home/kod/yafcms/public/index.php
+2019-04-03 18:51:46 19
+2019-04-03 18:51:48 4096
+2019-04-03 18:51:48 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:51:48 /home/kod/yafcms/public/index.php
+2019-04-03 18:51:48 19
+2019-04-03 18:52:00 4096
+2019-04-03 18:52:00 Yaf_Application::run(): Failed opening controller script /home/kod/yafcms/application/controllers/Widget.php: No such file or directory
+2019-04-03 18:52:00 /home/kod/yafcms/public/index.php
+2019-04-03 18:52:00 19

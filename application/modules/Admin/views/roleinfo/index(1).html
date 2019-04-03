@@ -144,7 +144,49 @@
 				size: 4
 			});
 			
-			
+			$(".but_update").on('click',function () {
+				//打开添加按钮
+				var id=$(this).attr('data-row-id');
+				console.log(12121212);
+				$.ajax({
+					type:"get",
+					url:"/admin/roleinfo/getById",
+					data:{'roleId':id},
+					async:true,
+					dataType:'json',
+					beforeSend:function () {
+						$("#m-add-info").find('.modal-body').ajax_loader({size:'pl-lg',color:'pls-green'});
+					},
+					complete:function () {
+						setTimeout(function () {
+							$("#m-add-info").find('.ajax-loader').fadeOut();
+						},100);
+					},
+					success:function (data) {
+						if(data.code=='0'){
+							$("#addRoleName").val(data.data.role_name);
+							$("#roleId").val(data.data.id);
+							$("#group_id").selectpicker('val',data.data.group_id);
+							$.each(data.data.permission,function(key,val){
+								$.each(val,function(k,v){
+									$("#checkall input[id='"+key+"["+v+"]']").prop("checked", true);
+								})
+							})
+							$("#m-add-info").modal('show');
+							$("#addform").attr('action',"/admin/roleinfo/updateUserById");
+						}else if(data.code=='10000'){
+							swal('没有权限,请联系管理员!');
+						}else{
+							swal('操作失败');
+						}
+					},
+					error: function(XMLHttpRequest, textStatus, errorThrown) {
+						alert(XMLHttpRequest.status);
+						alert(XMLHttpRequest.readyState);
+						alert(textStatus);
+					}
+				});
+			});
 			
 			$(".but_add").on('click',function () {
 				//打开添加按钮
@@ -172,7 +214,51 @@
                 }
             });
 			
-			
+			$(".but_delete").on('click',function(){
+				var id=$(this).attr('data-row-id');
+				var index=$(this).attr('data-row-index');
+				swal({
+					title: "你将要删除这个记录吗?",
+					text: "如果你删除了,将无法恢复!",
+					type: "warning",
+					showCancelButton: true,
+					confirmButtonColor: "#DD6B55",
+					confirmButtonText: "delete",
+					closeOnConfirm: false
+				}, function(){
+					$.ajax({
+						type:"post",
+						url:"/admin/roleinfo/delete",
+						data:{'roleId':id},
+						async:true,
+						dataType:'json',
+						beforeSend:function () {
+							$("#data-table-mac").ajax_loader({size:'pl-lg',color:'pls-green'});
+						},
+						complete:function () {
+							setTimeout(function () {
+								$("#data-table-mac").find('.ajax-loader').fadeOut();
+							},100);
+						},
+						success:function (data) {
+							if(data.code=='0'){
+								swal("已删除!", "当前记录已删除.", "success");
+								var count = $("#data-table-mac > tbody > tr").length;
+								if(count <= 1){
+									initable('init');
+								}else{
+									$("#data-table-mac > tbody > tr[data-index="+index+"]").remove();
+								}
+							}else if(data.code=='10000'){
+								swal('没有权限,请联系管理员!');
+							}else{
+								swal('操作失败');
+							}
+						}
+					})
+
+				});
+			})
 		});
 	});
 	
@@ -282,91 +368,10 @@
 	}
 	
 	function commands(value,row,index){
-		var but_edit='<button id="btn_edit" type="button" onclick=\'editrole('+row['id']+');\' class="btn but_update" data-row-id="'+row['id']+'" data-row-index="'+index+'"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>编辑</button>';
-		var but_del='<button id="btn_delete" type="button" onclick=\'delrole('+row['id']+','+index+');\' class="btn but_delete" data-row-id="'+row['id']+'" data-row-index="'+index+'"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除</button>';
+		var but_edit='<button id="btn_edit" type="button" class="btn but_update" data-row-id="'+row['id']+'" data-row-index="'+index+'"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>编辑</button>';
+		var but_del='<button id="btn_delete" type="button" class="btn but_delete" data-row-id="'+row['id']+'" data-row-index="'+index+'"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>删除</button>';
 		return but_edit+but_del;
 	};
-	
-	function editrole(id){
-	    $("#m-add-info").modal("show");
-		$.ajax({
-			type:"get",
-			url:"/admin/roleinfo/getById",
-			data:{'roleId':id},
-			async:true,
-			dataType:'json',
-			
-			success:function (data) {
-				if(data.code=='0'){
-					$("#addRoleName").val(data.data.role_name);
-					$("#roleId").val(data.data.id);
-					$("#group_id").selectpicker('val',data.data.group_id);
-					$.each(data.data.permission,function(key,val){
-						$.each(val,function(k,v){
-							$("#checkall input[id='"+key+"["+v+"]']").prop("checked", true);
-						})
-					})
-					$("#m-add-info").modal('show');
-					$("#addform").attr('action',"/admin/roleinfo/updateUserById");
-				}else if(data.code=='10000'){
-					swal('没有权限,请联系管理员!');
-				}else{
-					swal('操作失败');
-				}
-			},
-			error: function(XMLHttpRequest, textStatus, errorThrown) {
-				alert(XMLHttpRequest.status);
-				alert(XMLHttpRequest.readyState);
-				alert(textStatus);
-			}
-		});
-	}
-	
-	function delrole(id,rowindex){
-		//var id=$(this).attr('data-row-id');
-		//var index=$(this).attr('data-row-index');
-		swal({
-			title: "你将要删除这个记录吗?",
-			text: "如果你删除了,将无法恢复!",
-			type: "warning",
-			showCancelButton: true,
-			confirmButtonColor: "#DD6B55",
-			confirmButtonText: "delete",
-			closeOnConfirm: false
-		}, function(){
-			$.ajax({
-				type:"post",
-				url:"/admin/roleinfo/delete",
-				data:{'roleId':id},
-				async:true,
-				dataType:'json',
-				beforeSend:function () {
-					$("#data-table-mac").ajax_loader({size:'pl-lg',color:'pls-green'});
-				},
-				complete:function () {
-					setTimeout(function () {
-						$("#data-table-mac").find('.ajax-loader').fadeOut();
-					},100);
-				},
-				success:function (data) {
-					if(data.code=='0'){
-						swal("已删除!", "当前记录已删除.", "success");
-						var count = $("#data-table-mac > tbody > tr").length;
-						if(count <= 1){
-							initable('init');
-						}else{
-							$("#data-table-mac > tbody > tr[data-index="+rowindex+"]").remove();
-						}
-					}else if(data.code=='10000'){
-						swal('没有权限,请联系管理员!');
-					}else{
-						swal('操作失败');
-					}
-				}
-			})
-
-		});
-	}
 	
 	$("#checkboxall").click(function(){
 		if(this.checked){
